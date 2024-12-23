@@ -1,8 +1,9 @@
 # Desenvolvimento
 Repositório criado para armazenar atividades de teste em cursos/bootcamp
-O desafio 1 do Bootcamp Suzano se refere ao refinamento de um Projeto Conceitual de banco de dados de um E-Commerce
 
-O Item salvo corresponde a esse refinamento, 
+# 📦 E-commerce Data Model
+DESAFIO 1 Bootcampo Suzano DIO - refinamento de um Projeto Conceitual de banco de dados de um E-Commerce
+
 Descrição do Desafio
 O esquema deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto conceitual para fornecer o contexto sobre seu esquema.
 
@@ -14,8 +15,6 @@ Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
 Entrega – Possui status e código de rastreio;
 Agora é a sua vez de ser o protagonista! Implemente o desafio sugerido pela expert e suba seu projeto para um repositório próprio, com isso, você aumentará ainda mais seu portfólio de projetos no GitHub!
 
-# 📦 E-commerce Data Model
-DESAFIO 1
 ---
 
 ## 📌 Visão Geral
