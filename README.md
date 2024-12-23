@@ -161,9 +161,13 @@ Este projeto tem como objetivo desenvolver um sistema de controle e gerenciament
 ## ⚙️ Relacionamentos
 
 **Um cliente possui vários veículos (1:N).
+
 ** Cada veículo pode gerar múltiplas ordens de serviço (1:N).
+
 ** Uma ordem de serviço pode ter diversos serviços e peças associados (1:N).
+
 ** Cada OS é atribuída a uma equipe de mecânicos (N:1).
+
 ** Os serviços são consultados a partir de uma tabela de referência de mão de obra (N:1).
 
 Exemplo de Fluxo do Sistema
@@ -176,6 +180,7 @@ Exemplo de Fluxo do Sistema
 - O veículo é entregue ao cliente, gerando um histórico completo da ordem de serviço.
 
 
-** Contribuições
+** Contribuições:
+
 Contribuições são bem-vindas!
 
