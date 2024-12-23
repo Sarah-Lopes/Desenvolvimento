@@ -85,25 +85,25 @@ Valor – Preço do produto.
 
 ## ⚙️ Relacionamentos  
 - 1 Pedido → N Pagamentos**: Um pedido pode ter múltiplos pagamentos associados (parciais, complementares ou estornos).  
-- **Pagamentos Independentes**: A tabela de pagamentos opera de forma autônoma, permitindo callbacks de gateways e atualizações sem modificar diretamente os dados do pedido.  
-Cliente ↔ Pedido:
-
+- **Pagamentos Independentes**: A tabela de pagamentos opera de forma autônoma, permitindo callbacks de gateways e atualizações sem modificar diretamente os dados do pedido.
+    
+- Cliente ↔ Pedido:
 ** Um cliente pode ter vários pedidos (1:N).
-Pedido ↔ Detalhes do Pedido:
 
+- Pedido ↔ Detalhes do Pedido:
 ** Um pedido possui múltiplos itens (1:N).
-Pedido ↔ Pagamento:
 
+- Pedido ↔ Pagamento:
 ** Um pedido pode ter múltiplos pagamentos associados (parciais, complementares ou estornos). (1:N).
-Produto ↔ Detalhes do Pedido:
 
+- Produto ↔ Detalhes do Pedido:
 ** Produtos estão associados aos itens do pedido (N:M).
-Fornecedor ↔ Produto:
 
+- Fornecedor ↔ Produto:
 ** Fornecedores disponibilizam produtos para venda (1:N).
-Estoque ↔ Produto:
 
+- Estoque ↔ Produto:
 ** Um produto pode estar disponível em múltiplos estoques (N:M).
-Estoque ↔ Produto:
+
 
 ---
